@@ -1,0 +1,38 @@
+{
+  "name": "Alchimie — Opus Magnum",
+  "short_name": "Alchimie",
+  "description": "Instrument électroacoustique alchimique — Quatre actes sonores",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#04030a",
+  "theme_color": "#c8a84b",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Acte I — Alchimie",
+      "url": "./index.html#s1",
+      "description": "Enregistrement des éléments"
+    },
+    {
+      "name": "Acte IV — Opus Magnum",
+      "url": "./index.html#s4",
+      "description": "L'Apothéose"
+    }
+  ]
+}
